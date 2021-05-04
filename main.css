@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact__title {
+  width: 100%;
+  text-align: center;
+}
+
+.contact__info {
+  padding: 4rem;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}

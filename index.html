@@ -5,6 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
   </head>
-  <body></body>
+  <body>
+
+    <section class="container">
+            
+        <h2 class="contact__title">Contact Us</h2>
+
+        <div class="contact__info">
+            <h3>Adres</h3>
+            <p>Industrieweg 232, 9030 Gent-Mariakerke</p>
+            <p>09 234 86 00</p>
+        </div>
+
+        <form class="contact__form" action="/action_page.php">
+            <h3>Contact</h3>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
+  </body>
 </html>
